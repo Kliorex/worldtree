@@ -11,10 +11,14 @@ Open `index.html` in a modern desktop browser. No build tools, login, or externa
 - Perspective Canvas scene with draggable knowledge spheres and nested spaces
 - Shared knowledge content with independent instance annotations
 - Explicit orbit membership, links, and independent wormhole canvases
-- Text blocks, live knowledge references, and endpoint reconnection
+- Markdown preview, input autosave, and Markdown export
+- Text, code, formula text, image/file blocks, live knowledge references, and endpoint reconnection
+- Local attachments (8 MB per file, 30 MB total), included in JSON backups
+- Explicit cross-space relationships, validated instance migration, and pinned positions
+- Mobile knowledge-library drawer and keyboard-accessible modal controls
 - IndexedDB persistence, search, JSON backup/restore, undo/redo, and recycle bin
 
-This is a concept prototype, not a complete implementation of the PRD. Rich text, images, formulas, attachments, WebGL rendering, and large-scale performance optimization are not included.
+This is v0.2 of a concept prototype, not a complete implementation of the PRD. Full rich text, typeset mathematics, whole-entity deletion, WebGL rendering, and large-scale performance optimization are not included. Existing v1 JSON backups remain compatible. Markdown exports embed attachments as data URLs; use JSON backups for full restoration.
 
 ## GitHub Pages
 
